@@ -65,13 +65,9 @@ async def get_about_menu(client):
     
     text = (
         "> ℹ️ **ʙᴏᴛ ɪɴꜰᴏ & ᴀʙᴏᴜᴛ**\n\n"
-        f"🤖 **ᴍʏ ɴᴀᴍᴇ:** {bot_name} • ʜᴇʟʟ's ᴘᴀʀᴀᴅɪsᴇ sᴇᴀsᴏɴ 2\n"
-        "» **ᴄʀᴇᴀᴛᴏʀ:** [ᴍɪᴋᴏʏᴏ](https://t.me/YourUsername)\n"
-        "» **ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ:** [ᴀᴇʀᴏ ʙᴏᴛs](https://t.me/YourCommunityLink)\n"
-        "» **ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ:** [sʜᴀɴᴜ ᴀɴɪᴍᴇ](https://t.me/YourAnimeChannel)\n"
-        "» **sʜᴀɴᴜ ᴀɴɪᴍᴇ:** [sʜᴀɴᴜ ᴀɴɪᴍᴇ ᴄʜᴀᴛᴛɪɴɢ](https://t.me/YourChatLink)\n"
-        "» **sʜᴀɴᴜ ᴀɴɪᴍᴇ ɴᴇᴡs:** [sʜᴀɴᴜ ᴀɴɪᴍᴇ ɴᴇᴡs](https://t.me/YourNewsLink)\n"
-        "» **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [ᴍɪᴋᴏʏᴏ](https://t.me/YourUsername)"
+        f"🤖 **ꜱᴜᴘᴘᴏʀᴛ:** [tg founder](https://t.me/telegram)\n"
+        "» **ᴊᴏɪɴ ᴜꜱ:** [KdramaTalkies](https://t.me/kdramatalkies)\n"
+        "» **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [hellogram](https://t.me/telegram)"
     )
     
     buttons = InlineKeyboardMarkup([
