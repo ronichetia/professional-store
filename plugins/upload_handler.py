@@ -71,9 +71,9 @@ async def handle_video_upload(client, message):
         min_ep = min(ep_numbers)
         max_ep = max(ep_numbers)
         if min_ep == max_ep:
-            btn_name = f"📂 EPISODE {min_ep}"
+            btn_name = f"📂 DOWNLOAD HERE EP {min_ep} 📂"
         else:
-            btn_name = f"📂 EPISODE {min_ep} - {max_ep}"
+            btn_name = f"📂 DOWNLOAD HERE EP {min_ep} - {max_ep} 📂"
     else:
         btn_name = f"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 {len(files)} 𝗩𝗶𝗱𝗲𝗼𝘀" if len(files) > 1 else "📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗩𝗶𝗱𝗲𝗼"
 
@@ -122,7 +122,7 @@ async def process_generate_post(client, query: CallbackQuery):
     if ep_numbers:
         min_ep = min(ep_numbers)
         max_ep = max(ep_numbers)
-        btn_name = f"📂 EPISODE {min_ep}" if min_ep == max_ep else f"📂 EPISODE {min_ep} - {max_ep}"
+        btn_name = f"📂 DOWNLOAD HERE EP {min_ep}" if min_ep == max_ep else f"📂 DOWNLOAD HERE EP {min_ep} - {max_ep} 📂"
     else:
         btn_name = f"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 {len(files)} 𝗩𝗶𝗱𝗲𝗼𝘀" if len(files) > 1 else "📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗩𝗶𝗱𝗲𝗼"
 
